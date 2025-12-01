@@ -1,4 +1,8 @@
 
+html {
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
 body{
     min-height: 100vh;
     display: flex;
@@ -11,7 +15,7 @@ body{
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     text-align: center;
     background-color: #fff;
 }
