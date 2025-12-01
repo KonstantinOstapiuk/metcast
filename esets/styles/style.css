@@ -11,13 +11,25 @@ body{
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     text-align: center;
     background-color: #fff;
 }
-.title {
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 0;
     margin-bottom: 15px;
+}
+.img-wrapper{
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+.img-wrapper img {
+    height: 100%;
+    width: 100%;
 }
 .cityInput {
     width: 100%;
